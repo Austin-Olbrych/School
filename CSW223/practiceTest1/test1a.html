@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>test1a.html</title>
+		<script>
+			function init(){
+				_g_canvas = document.getElementById("theCanvas");
+				_g_context = _g_canvas.getContext("2d");
+			}			
+			function firstButton(){
+				_g_context.fillStyle = '#00f';
+				_g_context.fillRect(0,0,500,500);
+		
+				_g_context.fillStyle = '#f00';
+				_g_context.fillRect(330,300,100,100);
+			}			
+			function secondButton(){
+				_g_context.fillStyle = '#f00';
+				_g_context.fillRect(0,0,500,500);
+		
+				_g_context.fillStyle = '#00f';
+				_g_context.fillRect(330,300,100,100);
+			}
+		</script>
+	</head>
+	<body onload="init();">
+		<h2>test1a.html</h2>
+		<table border="2">
+			<td><canvas id="theCanvas" width="500" height="500"></canvas></td>
+		</table>
+		<button onclick="firstButton();">firstButton</button>
+		<button onclick="secondButton();">secondButton</button>
+	</body>
+</html>

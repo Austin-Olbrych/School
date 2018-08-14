@@ -1,0 +1,43 @@
+body {
+  background-color: #c8e1cd;
+  color: #000000;
+  font-family:"Arial Black", Gadget, sans-serif;
+}
+
+div {
+  padding: 2px;
+  border: 2px;
+  color: #000000;
+}
+
+h2 {
+  text-shadow: 5px 2px 5px #000000;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 5px;
+}
+
+a {
+  padding: 8px;
+  color: #1A5276;
+}
+
+p {
+  padding: 5px;
+  color: #000;
+  border: solid 3px #9B59B6;
+}
+
+ul {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  color: #000;
+  border: solid 3px #E67E22;
+}
+
+ol {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  color: #000;
+  border: solid 3px #E67E22;
+}

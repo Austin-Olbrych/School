@@ -1,0 +1,33 @@
+form{
+	background-color: #DEECE3;
+	position: relative;
+	top: 20px;
+	left: 50px;
+	margin: 15px 0 50px 0;
+	padding: 20px;
+	/* REMOVE THE FOLLOWING LINE IF YOU WANT THE FORM TO WRAP TO THE BROWSER WINDOW SIZE*/
+	width: 780px;
+}
+
+form h2 {
+	clear: left;
+	font: bold 1em/1em "Trebuchet MS", Verdana, Arial, "SF Sans Serif", sans-serif;
+	text-align: left;
+	margin: 5px 0 0 0;
+	color: #BD6E64;
+}
+
+form label {
+	font: bold 0.6em/1em "Trebuchet MS", Verdana, Arial, sans-serif; 
+	color: #333333;
+	margin: 0 15px 0 0;
+}
+
+table { border-collapse: collapse; text-align: left; width: 100%; } 
+table td, table th { padding: 3px 10px; }
+table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #652299), color-stop(1, #140D7F) );background:-moz-linear-gradient( center top, #652299 5%, #140D7F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#652299', endColorstr='#140D7F');background-color:#652299; color:#6E8977; font-size: 16px; font-weight: bold; border-left: 1px solid #A83B25; }
+table thead th:first-child { border: none; }
+table td { color: #6B632C; border-left: 4px solid #F43F9A;font-size: 16px;font-weight: normal; }
+table td { background: #F4E3FF; color: #4D1A75; }
+table tbody td:first-child { border-left: none; }
+table tbody tr:last-child td { border-bottom: none; }

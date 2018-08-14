@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="Person.js"></script>
+    <script src="init.js"></script>
+    <link rel = "stylesheet" href = "person.css">
+    <title>Person</title>
+  </head>
+  <body onload="init();">
+    <table width="700" cellspacing="2" cellpadding="2" border="3"
+    height="300">
+      <tbody>
+        <tr>
+          <td valign="top"><canvas id="myCanvas" width="700" height="300"></canvas></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <button onclick="startThree();">start with three people</button>
+    <button onclick="randomColors();">random Colors</button>
+    <button onclick="showHair();">show Hair</button>
+    <button onclick="hideHair();">hide Hair</button>
+    <button onclick="sayHello();">say Hello</button>
+	<button onclick="sayNothing();">say Nothing</button>
+	<button onclick="moveLeft();">move left 10</button>
+	<button onclick="moveRight();">move right 10</button>
+	<button onclick="newPerson();">new person</button>
+	<input id="numField" value="3" size="6"> <button
+      onclick="personInsert();">set number of people</button>
+    <br>
+    <p>My name is Austin Olbrych.</p>
+	<p>"Some people shoot for the stars and never reach them. 
+		I shoot for something much closer like my bed every night"</p>
+  </body>
+</html>

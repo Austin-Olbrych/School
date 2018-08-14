@@ -1,0 +1,32 @@
+a {
+    padding: 2px;
+	  text-decoration: none;
+    color: #00f;
+	  transition: background 1s linear 0s, color 1s linear 0s;
+}
+
+a.button {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px;
+    border:2px solid black;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+a.button:hover{
+    color: #fff;
+    background: #909;
+}
+
+p {
+    padding: 10px;
+}
+
+div {
+    padding: 20;
+}
+
+body {
+    background-color: #EBDEF0;
+}

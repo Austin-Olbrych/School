@@ -1,0 +1,33 @@
+body {
+  background-color: #66ff99;
+  color: #000000;
+  font-family: "Courier", Courier, monospace;
+}
+
+div {
+  padding: 2px;
+  border: 2px;
+  border: solid 8px #123456;
+  color: #123456;
+}
+
+h2 {
+  text-shadow: 15px 15px 5px #ff4839;
+  font-size: 30px;
+  color: #657846;
+}
+
+a {
+  padding: 2px;
+  text-decoration: underline;
+  color: #222299;
+}
+
+p {
+  color: #ffffff;
+}
+
+ul {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #463965;
+}

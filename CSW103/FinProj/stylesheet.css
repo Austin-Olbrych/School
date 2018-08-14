@@ -1,0 +1,92 @@
+body {
+    background: #FFF;
+    color: #666;
+	font-family: Lucida Console, Monospace;
+	font-size: 20px;
+}
+h1 {
+    background: #000;
+	color: #fff;
+	margin-bottom: 0;
+	background-image: url(images/worldmap.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 10px;
+	font-family: Lucida Console, Monospace;
+	color: #fff;
+	text-shadow: 8px 8px 8px #0c0;
+}
+h2{
+	font-family: Lucida Console, Monospace;
+	color: #9900CC;
+	text-shadow: 8px 8px 8px #0c0;
+	margin-left: 185px;
+}
+h2, h3 {
+    font-family: Lucida Console, Monospace;
+	color: #9900CC;
+	text-shadow: 8px 8px 8px #0c0;
+}
+p{
+	text-indent: 50px;
+	line-height:1.2em;
+}
+img{
+	float: left; padding: 20px;
+}
+#nav {
+    padding: 20px 30px 20px 10px;
+	font-weight: bold;
+	text-decoration: underline;
+	float: left;
+	width: 150px;
+	background-color: #9900CC;
+	line-height: 1.4em;
+}
+#nav ul {
+    list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+a {
+	transition: background 0.5s linear 0s, color 0.5s linear 0s;
+}
+#nav a {
+    text-decoration: none;
+}
+#nav a:link {
+    color: #fff;
+}
+#nav a:visited {
+    color: #fff;
+}
+#nav a:hover {
+    color: #000;
+}
+#content {
+    background-color: #FFF;
+    padding: 1px 20px 20px 30px;
+	margin-left: 50px;
+}
+#content img { float: left; padding: 20px; }
+
+#content ul { list-style-position: outside; }
+
+#wrapper {
+    margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 960px;
+	-webkit-box-shadow: 5px 5px 5px #003;
+	-moz-box-shadow: 5px 5px 5px #00e;
+	box-shadow: 5px 5px 5px 5px #9900CC;
+}
+#contact {
+    font-size: 90%;
+}
+#footer {
+    font-size: 80%;
+	font-family: Lucida Console, Monospace;
+	font-style: italic;
+}

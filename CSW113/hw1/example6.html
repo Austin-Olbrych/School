@@ -1,0 +1,31 @@
+<!DOCTYPE html">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <script>
+
+    function draw() {
+      var canvas = document.getElementById("canvas");
+      if (canvas.getContext) {
+        var ctx = canvas.getContext("2d");
+
+        ctx.beginPath();
+        ctx.rect(20, 50, 200, 100);
+        ctx.fillStyle = 'yellow';
+        ctx.fill();
+        ctx.lineWidth = 7;
+        ctx.strokeStyle = 'black';
+        ctx.stroke();
+
+alert("Welcome to Example 6. Enjoy!");
+      }
+    }
+
+  </script>
+    <title>Example 6</title>
+  </head>
+  <body onload="draw();">
+    <canvas id="canvas" width="250" height="150"></canvas>
+  </body>
+</html>

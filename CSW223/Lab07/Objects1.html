@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <title>Objects One</title>
+    <!--external js file is loaded-->
+    <script src="Ball.js"></script>
+    <script src="jsOne.js"></script>
+  </head>
+  <!--init() function called when page is first opened--> <body
+    onload="jsOneInit();">
+    <br>
+    <blockquote>
+      <blockquote>
+        <table width="400" cellspacing="2" cellpadding="2" border="3"
+          height="300">
+          <tbody>
+            <tr>
+              <td valign="top"> <canvas id="myCanvas" width="400"
+                  height="300"></canvas> </td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+    </blockquote>
+    <br>
+    <p id="scriptInfo">scriptInfo here</p>
+    <button type="button" onclick="randomMove();">random move</button>
+    <hr> <button type="button" onclick="showOtherBall(true);">show
+      other ball</button> <button type="button"
+      onclick="showOtherBall(false);">hide other ball</button>
+    <hr> The 'jsOne.js' file contains an init function called when the
+    html page is first loaded, 6 global variables whose names all start
+    with '_g_', and several functions that are called when the user
+    clicks on a button.<br>
+    <br>
+    The 'Ball.js' file contains a Ball class. See comments in the file
+    concerning the difference between private and public data.<br>
+    <br>
+    <hr><br>
+    To make certain that you understand the two basic ways that public
+    data may be used, create and use the two following functions.<br>
+    <br>
+    1. Add a function to 'jsOne.js' that uses two 'alert' statements to
+    display the current 'over' and 'down' values of the two Ball objects
+    by accessing the public data members from <b>outside</b> the class.
+    Then call that function with a button.<button type="button" 
+	onclick="getLocationsOut();">Get location outside of class</button><br>
+    <br>
+    2. Also, add another function in the Ball class that uses an 'alert'
+    to display the current 'over' and 'down' values by accessing the
+    public data members from <b>inside</b> the class. Then call that
+    function twice with a button to display the 'over' and 'down' values
+    for the two Ball objects.<button type="button" 
+	onclick="_g_ballTest.getLocationsIn();_g_otherBall.getLocationsIn();">
+	Get location inside of class</button>
+  </body>
+</html>

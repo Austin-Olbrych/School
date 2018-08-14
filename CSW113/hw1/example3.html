@@ -1,0 +1,29 @@
+<!DOCTYPE html">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <script>
+
+    function draw() {
+      var canvas = document.getElementById("canvas");
+      if (canvas.getContext) {
+        var ctx = canvas.getContext("2d");
+
+        ctx.fillStyle = "rgb(34,29,226)";
+        ctx.fillRect (10, 10, 55, 50);
+
+        ctx.fillStyle = "rgba(226,144,29, 0.5)";
+        ctx.fillRect (30, 30, 55, 50);
+
+alert("Welcome to Example 3. Enjoy!");
+      }
+    }
+
+  </script>
+    <title>Example 3</title>
+  </head>
+  <body onload="draw();">
+    <canvas id="canvas" width="150" height="150"></canvas>
+  </body>
+</html>

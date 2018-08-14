@@ -1,0 +1,7 @@
+p {width:900px; text-indent:3em; font-family:Georgia; background-color:#989898; border-style:double; border-width:5px;}
+h3 {font-family:cursive;}
+body {background-color:#00ccff;}
+.right {
+    position: absolute;
+    right:300px;
+    width:500px;

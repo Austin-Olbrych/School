@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <title>Move Objects</title>
+    <script src="buttonScript.js"></script>
+  </head>
+  <body onload="start();">
+    <p id="jsInfo">JavaScript Info</p>
+    <canvas id="myCanvas" width="500" height="200"></canvas>
+
+    <table style = "width:200">
+      <td>
+        <script>document.write("<H3>"+sally.name+" started at location: "+sally.over+".</H3>");</script>
+        <p id="locationInfoXSally">Sally's Horizontal Location</p>
+        <p id="locationInfoYSally">Sally's Vertical Location</p>
+        <table border="1" cellpadding="2" cellspacing="2" width="200">
+              <tbody>
+                <tr>
+                  <td valign="top"><br>
+                  </td>
+                  <td align="center"><button type="button"
+                      onclick="moveUpS()">up</button> </td>
+                  <td valign="top"><br>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center"><button type="button"
+                      onclick="moveLeftS()">left</button> </td>
+                  <td valign="top"><br>
+                  </td>
+                  <td align="center"><button type="button"
+                      onclick="moveRightS()">right</button> </td>
+                </tr>
+                <tr>
+                  <td valign="top"><br>
+                  </td>
+                  <td align="center"><button type="button"
+                      onclick="moveDownS()">down</button> </td>
+                  <td valign="top"><br>
+                  </td>
+                </tr>
+              </tbody>
+        </table>
+      </td><td>
+        <script>document.write("<H3>"+jim.name+" started at location: "+jim.over+".</H3>");</script>
+        <p id="locationInfoXJim">Jim's Horizontal Location</p>
+        <p id="locationInfoYJim">Jim's Vertical Location</p>
+              <table border="1" cellpadding="2" cellspacing="2" width="200">
+                    <tbody>
+                      <tr>
+                        <td valign="top"><br>
+                        </td>
+                        <td align="center"><button type="button"
+                            onclick="moveUpJ()">up</button> </td>
+                        <td valign="top"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center"><button type="button"
+                            onclick="moveLeftJ()">left</button> </td>
+                        <td valign="top"><br>
+                        </td>
+                        <td align="center"><button type="button"
+                            onclick="moveRightJ()">right</button> </td>
+                      </tr>
+                      <tr>
+                        <td valign="top"><br>
+                        </td>
+                        <td align="center"><button type="button"
+                            onclick="moveDownJ()">down</button> </td>
+                        <td valign="top"><br>
+                        </td>
+                      </tr>
+                    </tbody>
+              </table>
+        </td>
+    </body>
+</html>

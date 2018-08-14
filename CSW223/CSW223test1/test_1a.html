@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Austin</title>
+		<!--Austin Olbrych-->
+		<script>
+			function init(){
+				_g_canvas = document.getElementById("myCanvas");
+				_g_context = _g_canvas.getContext("2d");
+				
+				_g_context.fillStyle = '#0ab';
+				_g_context.fillRect(0,0,500,500);
+			}			
+			function firstButton(){
+				_g_context.fillStyle = '#0f0';
+				_g_context.fillRect(0,0,500,500);
+		
+				_g_context.fillStyle = '#f00';
+				_g_context.fillRect(10,10,20,20);
+				_g_context.fillRect(50,50,20,20);
+			}			
+			function secondButton(){
+				_g_context.fillStyle = '#f00';
+				_g_context.fillRect(0,0,500,500);
+		
+				_g_context.fillStyle = '#0f0';
+				_g_context.fillRect(10,10,20,20);
+				_g_context.fillRect(50,50,20,20);
+			}
+		</script>
+	</head>
+	<body onload="init();">
+		<table border="2">
+			<td><canvas id="myCanvas" width="400" height="300"></canvas></td>
+		</table>
+		<button onclick="firstButton();">firstButton</button>
+		<button onclick="secondButton();">secondButton</button>
+	</body>
+</html>

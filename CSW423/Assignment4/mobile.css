@@ -1,0 +1,22 @@
+#pagetop {
+    text-align: center;
+}
+
+#person1, #person2, #person3, #person4, #person5, #person6, #person7, #person8, #person9 {
+	border: solid 3px #00F;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	height: 190px;
+	float: left;
+	width: 85%;
+}
+
+#pagebottom {
+	clear: both;
+	text-align: center;
+}
+
+#container {
+	min-width: auto;
+	max-width: 480px;
+}

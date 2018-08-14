@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="Airplane.js"></script>
+    <script src="init.js"></script>
+    <link rel = "stylesheet" href = "plane.css">
+    <title>Airplane</title>
+  </head>
+  <body onload="init(); this.changeColor();">
+    <table width="400" cellspacing="2" cellpadding="2" border="3"
+    height="300">
+      <tbody>
+        <tr>
+          <td valign="top"><canvas id="myCanvas" width="400" height="300"></canvas></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <button onclick="changeColor();">change color</button>
+    <button onclick="doShowFlame();">show flame</button>
+    <button onclick="doNotShowFlame();">no flame</button>
+    <button onclick="move();">move</button>
+    <button onclick="addNewPlane();">add plane</button>
+    <br>
+    <p>My name is Austin Olbrych. "Flying a plane is no different
+       from riding a bicycle. It's just a lot harder to put baseball
+       cards in the spokes." - Captain Rex Kramer, in the movie Airplane
+  </body>
+</html>

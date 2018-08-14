@@ -1,0 +1,6 @@
+Priority changes
+1. Event notifications, Notification Response, Event Reminder
+Instead allowing user to click a button to add to calendar
+
+2. Event Privacy, Master Notification 
+Will not be used in the initial release

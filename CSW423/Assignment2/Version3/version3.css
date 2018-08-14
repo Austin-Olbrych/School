@@ -1,0 +1,27 @@
+#divRight{
+  float: right;
+  width: 350px;
+}
+
+#divLeft{
+  float: left;
+  width: 350px;
+}
+
+#divBody{
+  padding: 30px;
+  width: 800px;
+  margin: 0 auto;
+  border: dotted 4px #000;
+}
+
+#divBottom{
+  clear: both;
+  text-align: center;
+  border: solid 4px #000;
+  padding: 10px;
+}
+#divHead{
+	text-align: center;
+	border: solid 4px #000;
+}

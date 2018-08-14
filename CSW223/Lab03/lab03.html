@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab 03</title>
+		<script src="scriptLab3.js"></script>
+	</head>
+	<body onload="init();">
+		<h2>Lab 03</h2>
+		<p>Shape is: <span id="myShape"></span>
+		Background color is: <span id="myBackgroundColor"></span>
+		Shape color is: <span id="myShapeColor"></span></p>
+		<canvas id="theCanvas" width="500" height="500"></canvas>
+		<table border="2px">
+			<th>Draw Shape</th>
+			<th>Change Background Color</th>
+			<th>Change Shape Color</th>
+			<th>Fancy Item</th>
+			<tr>
+				<td><button onclick="drawCircle();">Circle</button></td>
+				<td><button onclick="backgroundRed();">Red</button></td>
+				<td><button onclick="shapeBlack();">Black</button></td>
+				<td><button onclick="drawHeart();">Heart</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="drawSquare();">Square</button></td>
+				<td><button onclick="backgroundGreen();">Green</button></td>
+				<td><button onclick="shapeLightBlue();">LightBlue</button></td>
+				<td><button onclick="drawGhost();">Ghost</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="drawRectangle();">Rectangle</button></td>
+				<td><button onclick="backgroundBlue();">Blue</button></td>
+				<td><button onclick="shapeYellow();">Yellow</button></td>
+				<td><button onclick="drawHouse();">House</button></td>
+			</tr>
+		</table>
+	</body>
+</html>
+
+

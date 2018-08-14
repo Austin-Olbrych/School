@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0096)http://raider.mountunion.edu/csw/CSW223/Spring2018/projects/ProjectOneDemoWithImage/preview.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Jim Klayder -- January 2018 -- demo for CSW 223 story preview project  -->
+    <title>Project Demo</title>
+    <!-- the setTextStyle function in 'MyDrawingLibrary.js' is very helpful and should be expanded -->
+    <script src="./Preview_files/MyDrawingLibrary.js"></script>
+    <script src="./Preview_files/Animator12.js"></script>
+    <!--
+
+	preview.js has the 'init()' function 
+    -->
+    <script src="./Preview_files/preview.js"></script>
+    <!-- 
+         add any class files you wish to define here 
+    -->
+    <script src="./Preview_files/Boat.js"></script>
+    <script src="./Preview_files/Turkey.js"></script>
+	<script src="./Preview_files/Marty.js"></script>
+	<script src="./Preview_files/MartyRunning.js"></script>
+	<script src="./Preview_files/Madagascar.js"></script>
+    <script src="./Preview_files/MyTitle.js"></script>
+    <script src="./Preview_files/MyMovingTitle.js"></script>
+  </head>
+  <body onload="init();">
+    <center>
+      <table width="500" cellspacing="2" cellpadding="2" border="2" height="300">
+        <tbody>
+          <tr>
+            <td valign="top"> <canvas id="myCanvas" width="500" height="300"></canvas> <br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <table width="600" cellspacing="2" cellpadding="2" border="1" height="40">
+        <tbody>
+          <tr>
+            <td valign="top">
+              <center><br>
+                <button type="button" onclick="drawPage(&#39;summaryPage&#39;);">Synopsis</button>
+                <br>
+                <br>
+              </center>
+            </td>
+            <td valign="top">
+              <center><br>
+                <button type="button" onclick="drawPage(&#39;challengesPage&#39;);">Challenges</button>
+                <br>
+                <br>
+              </center>
+            </td>
+            <td valign="top">
+              <center><br>
+                <button type="button" onclick="drawPage(&#39;shortAnimation&#39;);">Short Animation</button>
+                <br>
+                <br>
+              </center>
+            </td>
+            <td valign="top">
+              <center><br>
+                <button type="button" onclick="drawPage(&#39;longAnimation&#39;);">Long Animation</button>
+                <br>
+                <br>
+              </center>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p><br>
+    </center>
+    <img id="turkey1" style="display: none;" src="./Preview_files/Turkey1.png" alt="Turkey1" width="50" height="50">
+	<img id="marty" style="display: none;" src="./Preview_files/marty.png" alt="marty" width="200" height="80">
+	<img id="MartyRunning" style="display: none;" src="./Preview_files/zebraRunning.jpg" alt="MartyRunning" width="200" height="80">
+	<img id="madagascar" style="display: none;" src="./Preview_files/Madagascar.png" alt="madagascar" width="200" height="80">
+    
+
+</body></html>

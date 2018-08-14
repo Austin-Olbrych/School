@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+	<script src="scriptLab2.js"></script>
+	<script src="scriptLab2b.js"></script>
+    <title>CSW 223 Lab 2</title>
+	<style>
+		.button1 {
+			background-color: #f00;
+		}
+		.button2 {
+			background-color: #00f;
+			color: #fff
+		}
+		.button3 {
+			background-color: #0f0;
+		}
+	</style>
+  </head>
+  <body onload="start();">
+	<h2 align="center">Lab 2<br></h2>
+
+	<button class="button button1" onclick="drawRedBox();">Red Box</button>
+	<button class="button button2" onclick="drawBlueBox();">Blue Box</button>
+	<button class="button button3" onclick="drawGreenBox();">Green Box</button>
+	<button class="button button1" onClick="moveRedBox();">Move Red Box</button>
+
+	<canvas id="canvas" width="350" height="350"></canvas>
+	<br><hr>
+
+	<h2>Script Info</h2>
+	<h4 id="displayInfoHere">Info Text Here</h4>
+	<button class="button" onClick="displayInfo('displayInfoHere','Hello! Try the colored boxes.');">Display Info</button>
+
+	<h4 id="displayTextHere">Textbox Display Here</h4>
+	<input id="textBox" type="text" value="Boo!"><br>
+	<button class="button" onClick="displayTextBox();">Display Textbox</button>
+
+	<p id="textParagraph">textParagraph</p>
+	<button class="button" onClick="insertCode();">Insert Code</button>
+
+	<h4 id="displayNumbers">Display a random number</h4>
+	<button class="button" onClick="randomNumber();">Change Number</button>
+	
+	<h4 id="addition">Addition</h4>
+	<p id="total">Total goes here</p>
+	<input id="num1" type="text" value="insert a number">
+	<input id="num2" type="text" value="insert another number">
+	<button class="button" onClick="add();">Add</button>
+  </body>
+</html>

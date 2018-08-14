@@ -1,0 +1,230 @@
+Main Story Path
+
+pageOne: Escape The Cage
+
+You are Marty the zebra trying to break out of the New York Zoo. Once you find the key you either help your friends get out or sneak to the guard room.
+
+Option 1: *Guard Room
+Option 2: **Help Friends
+
+==========
+page2: Don't get Spotted
+
+You have made your way into the guards room. You see all the monitors and alarms that they use to secure the Zoo.
+
+Option 1: Distract the guard so you can sneak past
+Option 2: *Wait for him to fall asleep
+
+=========
+page5: Plan your Escape
+
+Now that you have access to the controls you can either take the guards ID badge to use or disable the alarm system.
+
+Option 1: *Take Badge
+Option 2: Disable the Alarm
+
+==========
+page10: Sneak Out
+
+You need to get out of the Zoo. Use the service door or go to the main gate.
+
+Option 1: *Use Back Door
+Option 2: Use Main Gate
+
+==========
+page20: Freedom
+
+Now that you're out you can sneak into the garbage truck collecting the trash or follow the signs to down town New York.
+
+Option 1: *Garbage Truck
+Option 2: **Follow Signs
+
+==========
+page40: Trash Rolling out
+
+You smell some delicious food as you drive by places. Jump out and get something to eat or fight the smell and stay in the truck.
+
+Option 1: Get some food
+Option 2: *Stay in
+
+==========
+page81: What to do
+
+You search through the garbage and see a bag of change: Take the coins or leave them.
+
+Option 1: *Take the coins
+Option 2: Leave them
+
+==========
+page162: The truck stopped
+
+You're worried someone might spot you. Either dig in the trash to hide or or jump out.
+
+Option 1: Hide in the Trash
+Option 2: *Jump Out
+
+==========
+page325: You're Lost
+
+You have no idea where you're at be know you need to get to the ocean. Ask people for directions or search for a map in the park.
+
+Option 1: Ask for Directions
+Option 2: *Search the Park
+
+==========
+page651: Search the Park
+
+You find yourself in central park looking for a map so you can get on a boat 
+
+Option 1: Enjoy the Park
+Option 2: *Use the interactive map
+
+==========
+page1303: Best Option
+
+You see of the map a marina or a port and need to decide which is a better option.
+
+Option 1: Marina
+Option 2: *Port
+
+==========
+page2605: How to get there
+
+You now know where you need to go, but how will we get their. Hope you don't get spotted by people or spill white paint on you to look like a horse.
+
+Option 1: Try your luck
+Option 2: *Disguise
+==========
+page5209: Create your disguise
+
+Move the buckets of paint onto the zebra to create a disguise for yourself
+
+Option 1: *Give Rides
+Option 2: Trot
+==========
+page10418: Perfect Disguise
+
+After you have the best disguise, keep giving rides to earn money or go to the ports
+
+Option 1: *To the port
+Option 2: Earn Money
+==========
+page20836: Reached the Port
+
+Decide if you want to travel to Asia or Africa
+
+Option 1: Asia
+Option 2: *Africa
+==========
+page41673: Where to hide
+
+Now that you are on the cargo shit where should you hide
+
+Option 1: *Below Deck
+Option 2: Above Deck
+==========
+page83344: Feeling Hungry
+
+After all your traveling you are starting to become very hungry. Go to the mess hall or catch fish off the edge of the boat
+
+Option 1: Mess Hall
+Option 2: *Catch Fish
+==========
+page166689: Eating the fish
+
+Take your chances eating raw fish or cook them on the furnace
+
+Option 1: *Cook Fish
+Option 2: Eat Raw
+==========
+*************************
+==========
+Side Story Path
+
+Page: Escape The Cage / pageOne
+
+You are Marty the zebra trying to break out of the New York Zoo. Once you find the key you either help your friends get out or sneak to the guard room.
+
+Option 1: *Guard Room
+Option 2: **Help Friends
+
+==========
+page3: Red Alert
+
+An alarm sounds because they saw you trying to help your friends escape. Hide in another pen or make a break for the main gate.
+
+Option 1: Hide
+Option 2: **Run
+
+==========
+page7: The Gate
+
+Once you get to the gate of the Zoo you either try and jump over it or find another exit
+
+Option 1: **Jump
+Option 2: Find
+
+=========
+
+page14: Your foot is stuck
+
+Now that your foot is stuck you can either let the guards get you and help you down or try to fight and get your foot out.
+
+Option 1: **Give Up
+Option 2: **Fight it out
+
+=========
+page41: Lost and Confused / Freedom
+
+People are noticing a Zebra is loose and you don't know where you are.
+
+Option 1: Play it Cool
+Option 2: **Run
+
+=========
+page83: It's the Fuzz
+
+The police are after you and you must hide
+
+Option 1: **Parking Garage
+Option 2: Climb a Tree
+
+=========
+page166: In the garage
+
+Now that you entered the garage you must figure out what to do next.
+
+Option 1: **Take sky bridge to another building
+Option 2: **Hide in service Elevator
+
+=========
+page162: At the dump / The truck Stopped
+
+You are left at the dump and either decide to find out what's in the warehouse or play and build a fort
+
+Option 1: **Investigate
+Option 2: Fort
+
+=========
+page648: So many options
+
+Ask one of the nice workers for directions or steal a truck to make an escape
+
+Option 1: Ask directions
+Option 2: **Steal truck
+
+=========
+page1297: It's the cops
+
+The police have pulled you over for reckless driving, race them or pull over
+
+Option 1: Race 'em
+Option 2: **Pull Over
+
+=========
+page2593: It's the cops
+
+After the police see you're a Zebra they are going to take you back to the Zoo where you belong
+
+Option 1: **Start Over
+Option 2: **Start Over

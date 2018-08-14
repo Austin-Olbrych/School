@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<title> Pacific Trails Resort :: Reservation</title>
+<link rel="stylesheet" href="pacific.css">
+</head>
+
+<body>
+
+<h1> Pacific Trails Resort </h1>
+
+<div id="nav">
+<ul>
+  <li> <a href="index.html"> Home</a> </li>
+  <li> <a href="yurts.html"> Yurts</a> </li>
+  <li> <a href="activities.html"> Activities</a> </li>
+  <li> <a href="reservations.html"> Reservations</a> </li>
+</ul>
+</div>
+
+<div id="wrapper">
+<div id="content">
+<h2> Reservation at Pacific Trails </h2>
+
+<h3> Contact Us Today!</h3>
+<p>Required fields are marked with an asterisk *</p>
+<form action="http://webdevbasics.net/scripts/pacific.php">
+<label for ="First Name">* First Name</label> <input type="text" name="myFName" 
+id="myFName" required>
+<label for ="Last Name">* Last Name</label> <input type="text" name="myLName" 
+id="myLName" required>
+<label for ="E-Mail">* E-Mail</label> <input type="email" name="myEMail" 
+id="myEmail" size="40" required>
+<label for ="Phone">Phone</label> <input type="tel" name="myPhone" 
+id="myPhone" maxlength="12">
+<label for ="Arrival Date">Arrival Date</label> <input type="date">
+<label for ="Nights">Nights</label> <input type="number" min="1" max="14">
+<label for ="Comments:">* Comments:</label> <textarea type="text" name="myComments"
+id="myComments" rows="2" cols="40" required></textarea>
+<input type="submit" value="Submit">
+</form>
+<div id="contact">
+<span class="resort">Pacific Trails Resort</span> <br/>
+12010 Pacific Trails Road <br/>
+Zephyr, CA &nbsp; 95555 <br/>
+<br/>
+888-555-5555 <br/>
+<br/>
+<br/>
+</div>
+
+<div id="footer">
+Copyright &copy; 2014 Pacific Trails Resort <br/>
+          <a href="mailto:yourfirstname@yourlastname.com"> yourfirstname@yourlastname.com</a>
+</div>
+
+</div> <!-- end content -->
+</div> <!-- end wrapper -->
+</body>
+</html>

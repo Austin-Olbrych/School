@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Quiz 2 Practice</title>
+      <script src="quiz2Script.js"></script>
+  </head>
+  <body onload="init();">
+    <h2>Quiz 2 Practice</h2>
+    <canvas id="theCanvas" width="500" height="500"></canvas>
+    <form Name="arcForm">
+      Over: <input type="text" value="# between 0 & 200" name="varOver"><br>
+      Down: <input type="text" value ="# between 0 & 200" name="varDown"><br>
+      Width: <input type="text" value ="# between 0 & 100" name="varWidth"><br>
+      Start Degree: <input type="text" value ="# between 0 & 2" name="varStartDegree"><br>
+      Stop Degree: <input type="text" value ="# between 0 & 2" name="varStopDegree"><br>
+      <input type="button" name="submit" value="Submit" onClick="inputInfo(this.form)">
+    </form>
+    <button onClick="drawCirlce();">Draw Circle</button>
+  </body>
+</html>
